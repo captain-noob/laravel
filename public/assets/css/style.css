@@ -923,7 +923,7 @@ h1, h2, h3, h4, h5, h6 {
   display:inline-block;
   text-align:center;
   margin-right:8px;
-  border:1px solid #000
+  border:1px solid #ffff;
 }
 .footer-social>a>i{
   -webkit-transition:.4s;
@@ -1124,7 +1124,7 @@ padding: 0px;
   border-right: 2px solid #fff;
 }
 .reg{
-  background-color: #007bff;
+  background-image: linear-gradient(131deg, #feb47b, #ff7e5f, #ff7e5f, #ff7e5f);
   color: white;
   border-radius: 15px;
 }

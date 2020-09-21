@@ -79,13 +79,13 @@
 
         <div class="collapse navbar-collapse" id="navbarsupportedcontent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active x pr-2"><a style="color: #2C234D;" class="nav-link font-weight-bold"
+                <li class="nav-item active x px-3"><a style="color: #2C234D;" class="nav-link font-weight-bold"
                         href="/">HOME</a></li>
 
                 <li class="nav-item dropdown">
-                    <a href="/aboutus" class="nav-link dropdown-toggle font-weight-bold x pr-2" id="navbardropdown"
+                    <a href="/aboutus" class="nav-link dropdown-toggle font-weight-bold x px-3" id="navbardropdown"
                         role="button" data-toggle="dropdown" style="color: #2C234D;">ABOUT US</a>
-                    <div class="dropdown-menu" aria-labelledby="navbardropdown">
+                    <div class="dropdown-menu mt-3" aria-labelledby="navbardropdown">
                         <a class="dropdown-item font-weight-bold x" href="/aboutus" style="color: #2C234D;">ASSISI IFL</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item font-weight-bold x" href="/aboutus" style="color: #2C234D;">OUR
@@ -100,13 +100,12 @@
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item font-weight-bold x" href="/aboutus" style="color: #2C234D;">PHILODOPHY OF
                             AIFL</a>
-                        <div class="dropdown-divider"></div>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a href="/courses" class="nav-link dropdown-toggle font-weight-bold x pr-2" id="navbardropdown1"
+                    <a href="/courses" class="nav-link dropdown-toggle font-weight-bold x px-3" id="navbardropdown1"
                         role="button" data-toggle="dropdown" style="color: #2C234D;">COURSES</a>
-                    <div class="dropdown-menu" aria-labelledby="navbardropdown1">
+                    <div class="dropdown-menu mt-3" aria-labelledby="navbardropdown1">
                         <a class="dropdown-item font-weight-bold x" href="/courses" style="color: #2C234D;">GERMAN</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item font-weight-bold x" href="/courses" style="color: #2C234D;">FRENCH</a>
@@ -114,26 +113,26 @@
                         <a class="dropdown-item font-weight-bold x" href="/courses" style="color: #2C234D;">ITALIAN</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item font-weight-bold x" href="/courses" style="color: #2C234D;">ENGLISH</a>
-                        <div class="dropdown-divider"></div>
+                        
                     </div>
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a href="/facilities" class="nav-link dropdown-toggle font-weight-bold x" id="navbardropdown2"
+                    <a href="/facilities" class="nav-link dropdown-toggle font-weight-bold x px-3" id="navbardropdown2"
                         role="button" data-toggle="dropdown" style="color: #2C234D;">FACILITIES</a>
-                    <div class="dropdown-menu" aria-labelledby="navbardropdown2">
+                    <div class="dropdown-menu mt-3" aria-labelledby="navbardropdown2">
                         <a class="dropdown-item font-weight-bold x" href="/facilities" style="color: #2C234D;">LAB</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item font-weight-bold x" href="/facilities" style="color: #2C234D;">HOSTEL</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item font-weight-bold x" href="/facilities" style="color: #2C234D;">LIBRARY</a>
-                        <div class="dropdown-divider"></div>
+                       
                     </div>
                 </li>
 
-                <li class="nav-item"><a class="nav-link font-weight-bold x pr-2" href="/gallery"
+                <li class="nav-item"><a class="nav-link font-weight-bold x px-3" href="/gallery"
                         style="color: #2C234D;">GALLERY</a></li>
-                <li class="nav-item"><a class="nav-link font-weight-bold x pr-2" href="/contact"
+                <li class="nav-item"><a class="nav-link font-weight-bold x px-3" href="/contact"
                         style="color: #2C234D;">CONTACT</a></li>
                 <li class="nav-item reg px-3"><a class="nav-link text-center text-white font-weight-bold x pr-2" href="/register">REGISTER</a></li>
 
@@ -239,9 +238,9 @@
                                 </div>
                                 <!-- social -->
                                 <div class="footer-social mt-5">
-                                    <a href="#" data-aos="fade-up"><i class="text-white fa fa-twitter"></i></a>
-                                    <a href="#" data-aos="fade-up"><i class="text-white fa fa-facebook-f"></i></a>
-                                    <a href="#" data-aos="fade-up"><i class="text-white fa fa-youtube"></i></a>
+                                    <a href="#" data-aos="fade-up"><i class="text-white fab fa-twitter"></i></a>
+                                    <a href="#" data-aos="fade-up"><i class="text-white fab fa-facebook-f"></i></a>
+                                    <a href="#" data-aos="fade-up"><i class="text-white fab fa-youtube"></i></a>
                                 </div>
                             </div>
                         </div>

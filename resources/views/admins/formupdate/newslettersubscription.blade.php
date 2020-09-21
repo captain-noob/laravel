@@ -32,17 +32,18 @@
                               </select>
                            </div>
                            <div class="col-md-3">
-                              <p class="demo-button btn btn-primary">
-                                <button type="submit" class="fa fa-search">Filter</button>
-                              </p> 
+                                <button type="submit" style="background-color:blue;color:white;padding:5px 20px 7px 20px;border-radius:15px !important;"><i class="fa fa-search"></i> Filter</button>
+      
                            </div>
                         </form>
                      </div>
+                     <br><br>
                      <form action="/admins/newslettersubcription/download" method="POST">
                      @csrf
-                     <input type="date" name="from" id="" placeholder="date from">
-                     <input type="date" name="to" id="" placeholder="date to"> 
-                     <BUtton type="submit">download</BUtton>
+                     <div class="row" style="float:right;margin-right:130px;margin-bottom:30px;">
+                     <input type="date" name="from" id="" placeholder="date from" style="border-radius:15px;padding:5px 30px 5px 30px;">
+                     <input type="date" name="to" id="" placeholder="date to"  style="border-radius:15px;padding:5px 30px 5px 30px;"> 
+                     <BUtton type="submit" style="background-color:orange;color:white;padding:5px 30px 5px 30px;border-radius:15px;" ><i class="fa fa-download"></i> Download</BUtton>
                      </form>
                   </div>
                 

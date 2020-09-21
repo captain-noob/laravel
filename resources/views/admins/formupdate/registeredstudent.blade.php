@@ -16,7 +16,7 @@
                         <div class="col-md-3">
                            <h3 class="panel-title">Filter Results</h3>
                         </div>
-                        <br>
+                        <br><br><br>
                         <form action="/admins/registeredstudent/filter" method="post">
                         @csrf
                            <div class="col-md-3">
@@ -37,18 +37,22 @@
                            </div>
                            <div class="col-md-3">
                               <p class="demo-button btn btn-primary">
-                                 <button type="submit" class="fa fa-search">Filter</button>
+                                 <button type="submit"><i class="fa fa-search"></i> Filter</button>
                               </p>
                            </div>
                         </form>
                      </div>
+                     <br><br>
                      <form action="/admins/registeredstudent/download" method="POST">
                      @csrf
-                     <input type="date" name="from" id="" placeholder="date from">
-                     <input type="date" name="to" id="" placeholder="date to"> 
-                     <BUtton type="submit">download</BUtton>
+                     <div class="row" style="float:right;margin-right:130px;margin-bottom:30px;">
+                        <input type="date" name="from" id="" placeholder="date from" style="border-radius:15px;padding:5px 30px 5px 30px;">
+                        <input type="date" name="to" id="" placeholder="date to" style="border-radius:15px;padding:5px 30px 5px 30px;"> 
+                        <BUtton type="submit" style="background-color:orange;color:white;padding:5px 30px 5px 30px;border-radius:15px;"><i class="fa fa-download"></i> Download</BUtton>
+                     </div>
                      </form>
                   </div>
+                  <br><br>
                   <div class="panel-body no-padding">
                      <table class="table table-striped">
                         <thead>

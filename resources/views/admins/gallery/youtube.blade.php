@@ -46,7 +46,7 @@
                                           <p style="color:red">{{$errors->first("title")}}</p>
                                           @enderror
                                        </div>
-                                       <button class="btn btn-success" style="margin:11px">Upload</button>
+                                       <button class="btn btn-success" style="margin:11px"><i class="fa fa-upload"></i> Upload</button>
                                     </div>
                                  </form>
                               </center>
@@ -62,17 +62,17 @@
                   <div class="row">
                   @foreach($data as $youtube)
                      <!-- image card  -->
-                     <div class="col-md-4" style="margin-bottom:5px">
-                        <div class="item ">
+                     <div class="col-md-4" style="margin-bottom:5px;">
+                        <div class="item">
                            <div class="card item-card card-block">
-                              <iframe class="card-img-top" src="{{$youtube->youtubelink}}" alt="Card image" style="width:100%;height:150px"></iframe>
+                              <iframe class="card-img-top" src="{{$youtube->youtubelink}}" alt="Card image" style="width:100%;height:200px"></iframe>
                               <div class="card-body">
                                  <p class="card-title">{{$youtube->title}}</p>
-                                 <center> <a href="/admins/youtube/{{$youtube->id}}/edit" class="btn btn-success" style="margin:11px">edit</a></center>
+                                 <center> <a href="/admins/youtube/{{$youtube->id}}/edit" class="btn btn-success" style="margin:11px;border-radius:10px;">edit</a></center>
                                  <form action="/admins/youtube/{{$youtube->id}}" method="post">
                                  @csrf
                                  @method("DELETE")
-                                 <center><button onclick="return confirm('are you sure');" class="btn btn-danger stretched-link">Delete</button></center>
+                                 <center><button onclick="return confirm('are you sure');" style="border-radius:10px;" class="btn btn-danger stretched-link">Delete</button></center>
                                  </form>
 
                               </div>

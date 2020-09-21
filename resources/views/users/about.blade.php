@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="/assets/css/about.css">
 </head>
 <body>
-    <section class="ftco-services mt-5 pt-5">
+    <section class="ftco-services pt-5 bg-light">
         <div class="container">
             <div class="row no-gutters">
                 <div class="col-md-4 ftco-animate pt-5 mb-5 nav-link-wrap ">

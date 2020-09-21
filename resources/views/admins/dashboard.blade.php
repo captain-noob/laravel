@@ -9,26 +9,26 @@
 					<!-- OVERVIEW -->
 					<div class="panel panel-headline">
 						<div class="panel-heading">
-							<h3 class="panel-title">Weekly Overview</h3>
-							<p class="panel-subtitle">Period: Oct 14, 2016 - Oct 21, 2016</p>
+							<h3 class="panel-title">Assisi Overview</h3>
+							<p class="panel-subtitle">Period: Sept 21, 2020 - Oct 22, 2020</p>
 						</div>
 						<div class="panel-body">
 							<div class="row">
 								<div class="col-md-3">
 									<div class="metric">
-										<span class="icon"><i class="fa fa-download"></i></span>
+										<span class="icon"><i class="fa fa-image"></i></span>
 										<p>
-											<span class="number">1,252</span>
-											<span class="title">Downloads</span>
+											<span class="number">22</span>
+											<span class="title">Images</span>
 										</p>
 									</div>
 								</div>
 								<div class="col-md-3">
 									<div class="metric">
-										<span class="icon"><i class="fa fa-shopping-bag"></i></span>
+										<span class="icon"><i class="fa fa-youtube"></i></span>
 										<p>
-											<span class="number">203</span>
-											<span class="title">Sales</span>
+											<span class="number">5</span>
+											<span class="title">Videos</span>
 										</p>
 									</div>
 								</div>
@@ -36,17 +36,17 @@
 									<div class="metric">
 										<span class="icon"><i class="fa fa-eye"></i></span>
 										<p>
-											<span class="number">274,678</span>
+											<span class="number">274</span>
 											<span class="title">Visits</span>
 										</p>
 									</div>
 								</div>
 								<div class="col-md-3">
 									<div class="metric">
-										<span class="icon"><i class="fa fa-bar-chart"></i></span>
+										<span class="icon"><i class="fa fa-graduation-cap"></i></span>
 										<p>
-											<span class="number">35%</span>
-											<span class="title">Conversions</span>
+											<span class="number">6000</span>
+											<span class="title">Students</span>
 										</p>
 									</div>
 								</div>
@@ -57,26 +57,26 @@
 								</div>
 								<div class="col-md-3">
 									<div class="weekly-summary text-right">
-										<span class="number">2,315</span> <span class="percentage"><i class="fa fa-caret-up text-success"></i> 12%</span>
-										<span class="info-label">Total Sales</span>
+										<span class="number">25</span> <span class="percentage"><i class="fa fa-caret-up text-success"></i> 12%</span>
+										<span class="info-label">Daily Visits</span>
 									</div>
 									<div class="weekly-summary text-right">
-										<span class="number">$5,758</span> <span class="percentage"><i class="fa fa-caret-up text-success"></i> 23%</span>
-										<span class="info-label">Monthly Income</span>
+										<span class="number">500</span> <span class="percentage"><i class="fa fa-caret-up text-success"></i> 23%</span>
+										<span class="info-label">Weekly Visits</span>
 									</div>
 									<div class="weekly-summary text-right">
-										<span class="number">$65,938</span> <span class="percentage"><i class="fa fa-caret-down text-danger"></i> 8%</span>
-										<span class="info-label">Total Income</span>
+										<span class="number">32500</span> <span class="percentage"><i class="fa fa-caret-down text-danger"></i> 8%</span>
+										<span class="info-label">Monthly Visits</span>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 					<!-- END OVERVIEW -->
-					<div class="row">
-						<div class="col-md-6">
+					<!--<div class="row">
+						<div class="col-md-6">-->
 							<!-- RECENT PURCHASES -->
-							<div class="panel">
+							<!--<div class="panel">
 								<div class="panel-heading">
 									<h3 class="panel-title">Recent Purchases</h3>
 									<div class="right">
@@ -140,12 +140,12 @@
 										<div class="col-md-6 text-right"><a href="#" class="btn btn-primary">View All Purchases</a></div>
 									</div>
 								</div>
-							</div>
+							</div>-->
 							<!-- END RECENT PURCHASES -->
-						</div>
-						<div class="col-md-6">
+						<!--</div>
+						<div class="col-md-6">-->
 							<!-- MULTI CHARTS -->
-							<div class="panel">
+							<!--<div class="panel">
 								<div class="panel-heading">
 									<h3 class="panel-title">Projection vs. Realization</h3>
 									<div class="right">
@@ -156,14 +156,14 @@
 								<div class="panel-body">
 									<div id="visits-trends-chart" class="ct-chart"></div>
 								</div>
-							</div>
+							</div>-->
 							<!-- END MULTI CHARTS -->
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-7">
+						<!--</div>
+					</div>-->
+					<!--<div class="row">
+						<div class="col-md-7">-->
 							<!-- TODO LIST -->
-							<div class="panel">
+							<!--<div class="panel">
 								<div class="panel-heading">
 									<h3 class="panel-title">To-Do List</h3>
 									<div class="right">
@@ -214,12 +214,12 @@
 										</li>
 									</ul>
 								</div>
-							</div>
+							</div>-->
 							<!-- END TODO LIST -->
-						</div>
-						<div class="col-md-5">
+						<!--</div>
+						<div class="col-md-5">-->
 							<!-- TIMELINE -->
-							<div class="panel panel-scrolling">
+							<!--<div class="panel panel-scrolling">
 								<div class="panel-heading">
 									<h3 class="panel-title">Recent User Activity</h3>
 									<div class="right">
@@ -252,10 +252,10 @@
 									</ul>
 									<button type="button" class="btn btn-primary btn-bottom center-block">Load More</button>
 								</div>
-							</div>
+							</div>-->
 							<!-- END TIMELINE -->
-						</div>
-					</div>
+						<!--</div>
+					</div>-->
 					<div class="row">
 						<div class="col-md-4">
 							<!-- TASKS -->
@@ -302,10 +302,10 @@
 											</div>
 										</li>
 										<li>
-											<p>Mobile App Development <span class="label-percent">10%</span></p>
+											<p>Website Performance <span class="label-percent">90%</span></p>
 											<div class="progress progress-xs">
-												<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%">
-													<span class="sr-only">10% Complete</span>
+												<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+													<span class="sr-only">90% Complete</span>
 												</div>
 											</div>
 										</li>

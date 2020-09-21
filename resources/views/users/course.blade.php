@@ -46,6 +46,9 @@
                 }
             }
         }
+        .radius1{
+            border-radius:13px;
+        }
         
     </style>
 </head>
@@ -55,7 +58,7 @@
         <div class="container pt-5">
             <div class="row pt-5">
                 <div class="col-lg-12">
-                    <div class="blog__large" style="border-radius:5px;">
+                    <div class="blog__large radius1">
                         <div class="blog__large__pic" data-aos="fade-right">
                             <img src="assets/img/blog/blog-large.png" alt="">
                         </div>
@@ -71,7 +74,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-6" data-aos="fade-right">
-                    <div class="blog__item"  style="box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);">
+                    <div class="blog__item radius1"  style="box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);">
                         <div class="blog__item__pic" data-aos="zoom-in" data-aos-delay="100">
                             
                                 <div class="row col-lg-6 col-md-6 col-sm-6 col-4 py-4 mx-auto">
@@ -79,7 +82,7 @@
                                 </div>
                             
                         </div>
-                        <div class="blog__item__text bg-white blog-p">
+                        <div class="blog__item__text bg-white blog-p radius1">
                             <h5 data-aos="fade-up"><a href="#" style="text-decoration: none;">German</a></h5>
 
                             <p data-aos="fade-up">With roughly 100 million native speakers, German is the most widely spoken language of
@@ -103,13 +106,13 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6" data-aos="fade-right">
-                    <div class="blog__item" style="box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);">
+                    <div class="blog__item radius1" style="box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);">
                         <div class="blog__item__pic" data-aos="zoom-in" data-aos-delay="150">
                             <div class="row col-lg-6 col-md-6 col-sm-6 col-4 py-4 mx-auto">
                                 <img src="assets/img/france.png" alt="">
                             </div>
                         </div>
-                        <div class="blog__item__text bg-white blog-p">
+                        <div class="blog__item__text radius1 bg-white blog-p">
                             <h5 data-aos="fade-up"><a href="#" style="text-decoration: none;">French</a></h5>
 
                             <p data-aos="fade-up">French used widely across four continents in Canada, Europe, Africa and in former French
@@ -128,13 +131,13 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6" data-aos="fade-right">
-                    <div class="blog__item" style="box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);">
+                    <div class="blog__item radius1" style="box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);">
                         <div class="blog__item__pic" data-aos="zoom-in" data-aos-delay="200">
                             <div class="row col-lg-6 col-md-6 col-sm-6 col-4 py-4 mx-auto">
                                 <img src="assets/img/italy.png" alt="">
                             </div>
                         </div>
-                        <div class="blog__item__text bg-white blog-p">
+                        <div class="blog__item__text radius1 bg-white blog-p">
                             <h5 data-aos="fade-up"><a href="#" style="text-decoration: none;">Italian</a></h5>
 
                             <p data-aos="fade-up"><!--Assisi Institute of Foreign Languages, a right place to learn Italian. We offer Italian
@@ -154,13 +157,13 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6" data-aos="fade-right">
-                    <div class="blog__item" style="box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);">
+                    <div class="blog__item radius1" style="box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);">
                         <div class="blog__item__pic" data-aos="zoom-in" data-aos-delay="100">
                             <div class="row col-lg-6 col-md-6 col-sm-6 col-4 py-4 mx-auto">
                                 <img src="assets/img/flag.png" alt="">
                             </div>
                         </div>
-                        <div class="blog__item__text bg-white blog-p">
+                        <div class="blog__item__text radius1 bg-white blog-p">
                             <h5 data-aos="fade-up"><a href="#" style="text-decoration: none;">English</a></h5>
 
                             <p data-aos="fade-up">Assisi Institute of Foreign Language offers high-quality English language courses in
@@ -187,9 +190,9 @@
 
 
     <!-- Blog Section End -->
-   <modal class="modal" id="mymodal" style="box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);">
+   <modal class="modal" id="mymodal">
         <div class="modal-dialog">
-            <div class="modal-content">
+            <div class="modal-content radius1" style="box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);">
                 <div class="modal-header">
                     <h5 class="modal-title font-weight-bold">German</h5>
                     <button class="close" data-dismiss="modal">&times;</button>
@@ -206,7 +209,7 @@
                     facilitates our students to compete in various German board exams.
                 </div>
                 <div class="modal-footer">
-                    <a href="register.php" class="btn text-white" style="background-color:#FF7E5F">Enroll Now</a>
+                    <a href="/register" class="btn text-white" style="background-color:#FF7E5F">Enroll Now</a>
                 </div>
             </div>
         </div>

@@ -5,7 +5,7 @@
 <div class="main-content">
    <div class="container-fluid">
    <div class="row">
-      <h3 class="page-title">NEWS</h3>
+      <h3 class="page-title" style="padding-left:16px;color:black;">NEWSLETTER</h3>
       <div class="col-md-7" id="edit">
          <h3 class="page-title">Add Document </h3>
          @if($message=Session::get('message'))
@@ -15,7 +15,7 @@
                
                </div>
          @endif
-            <div class="panel panel-headline">
+            <div class="panel panel-headline" style="border-radius:10px">
                <form action="/admins/document/news" method="post" enctype="multipart/form-data" >
                 @csrf
                  <div class="panel-body">
@@ -30,31 +30,32 @@
                    <p class="alert alert-danger">{{$errors->first('title')}}</p>
                    @enderror
 
-                 
-                   <p>Add Discerption</p>
+                 <br>
+                   <p>Add Description</p>
                    <textarea type="textarea"  name="body" style="height:200px;width:100%" >{{old('body')}}</textarea>
                    @error('body')
                    <p class="alert alert-danger">{{$errors->first('body')}}</p>
                    @enderror
-                  
-                   <center><button class="btn btn-outline-secondary float-right btn-success">Save</button></center>
-                 </div>
+                  <br><br><br>
+                   <center><button class="btn btn-outline-secondary float-right btn-success"><i class="fa fa-save"></i> Save</button></center>
+                 </div><br>
                </form>
             </div> 
       </div>
          <!-- News List  --> 
+         <br><br><br>
       @foreach($data as $document)
       <div class="col-md-5"> 
            <!-- PANEL HEADLINE -->
-         <div class="panel panel-headline">
-            <image src="{{asset('public/storage/file/news/'.$document->file)}}" style="width:100%;height:300px">
+         <div class="panel panel-headline" style="border-radius:10px">
+            <image src="{{asset('public/storage/file/news/'.$document->file)}}" style="width:100%;height:300px;border:none;">
             <div class="panel-body">
             <h3 class="card-title">{{$document->title}}</h3>
             <h4>{{$document->body}}</h4>
                 <form action="/admins/document/news/{{$document->id}}" method="POST">
                 @csrf
                 @method('DELETE')
-                  <center><button type="submit" class="btn btn-outline-secondary btn-primary float-right">delete</button></center>
+                  <center><button type="submit" class="btn btn-outline-secondary btn-danger float-right"><i class="fa fa-trash"></i> Delete</button></center>
                  </form>
              </div>
          </div>

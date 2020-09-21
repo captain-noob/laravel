@@ -25,9 +25,9 @@
                                 <a onclick="window.scrollTo(0, 600);" class="btn-get-started  btn btn-lg col-lg-3 animated fadeInUp scrollto"
                                     style="cursor: pointer;">Our Programs <i class="fa fa-flash"></i></a>
                                 <a onclick="window.scrollTo(0, 600);" class="btn-get-started  btn btn-lg col-lg-3 animated fadeInUp scrollto"
-                                style="cursor: pointer;">Upcoming Batches <i class="fa fa-linode"></i></a>
+                                style="cursor: pointer;">Upcoming Batches <i class="fab fa-linode"></i></a>
                                 <a onclick="window.scrollTo(0, 600);" class="btn-get-started  btn btn-lg col-lg-3 animated fadeInUp scrollto"
-                                    style="cursor: pointer;">WhatsApp <i class="fa fa-whatsapp"></i></a>
+                                    style="cursor: pointer;">WhatsApp <i class="fab fa-whatsapp"></i></a>
                                 
                             </div>
                         </div>
@@ -57,9 +57,9 @@
                                 <a onclick="window.scrollTo(0, 600);" class="btn-get-started btn btn-lg col-lg-3 animated fadeInUp scrollto"
                                     style="cursor: pointer;">Our Programs <i class="fa fa-flash"></i></a>
                                 <a onclick="window.scrollTo(0, 600);" class="btn-get-started btn btn-lg col-lg-3 animated fadeInUp scrollto"
-                                style="cursor: pointer;">Upcoming Batches <i class="fa fa-linode"></i></a>
+                                style="cursor: pointer;">Upcoming Batches <i class="fab fa-linode"></i></a>
                                 <a onclick="window.scrollTo(0, 600);" class="btn-get-started btn btn-lg col-lg-3 animated fadeInUp scrollto"
-                                    style="cursor: pointer;">WhatsApp <i class="fa fa-whatsapp"></i></a>
+                                    style="cursor: pointer;">WhatsApp <i class="fab fa-whatsapp"></i></a>
                             </div>
                         </div>
                     </div>
@@ -88,9 +88,9 @@
                                 <a onclick="window.scrollTo(0, 600);" class="btn-get-started btn btn-lg col-lg-3 animated fadeInUp scrollto"
                                     style="cursor: pointer;">Our Programs <i class="fa fa-flash"></i></a>
                                 <a onclick="window.scrollTo(0, 600);" class="btn-get-started btn btn-lg col-lg-3 animated fadeInUp scrollto"
-                                style="cursor: pointer;">Upcoming Batches <i class="fa fa-linode"></i></a>
+                                style="cursor: pointer;">Upcoming Batches <i class="fab fa-linode"></i></a>
                                 <a onclick="window.scrollTo(0, 600);" class="btn-get-started btn btn-lg col-lg-3 animated fadeInUp scrollto"
-                                    style="cursor: pointer;">WhatsApp <i class="fa fa-whatsapp"></i></a>
+                                    style="cursor: pointer;">WhatsApp <i class="fab fa-whatsapp"></i></a>
                             </div>
                         </div>
                     </div>
@@ -111,8 +111,8 @@
         </div>
     </section><!-- End Hero -->
     <div class="col panl" >
-        <a href="#" data-aos="fade-up" class="btn text-white" data-toggle="modal" data-target="#mymodal" style="background-color:#4045AE;">More <i class="fa fa-superpowers"></i></a>
-        <a href="#" data-aos="fade-up" class="btn text-white float-right"style="background-color:#4045AE;"><i class="fa fa-wpexplorer"></i> View</a>
+        <a href="#" data-aos="fade-up" class="btn text-white" data-toggle="modal" data-target="#mymodal" style="background-color:#4045AE;">More <i class="fab fa-superpowers"></i></a>
+        <a href="#" data-aos="fade-up" class="btn text-white float-right"style="background-color:#4045AE;"><i class="fab fa-wpexplorer"></i> View</a>
     </div>
 
     <!--<marquee behavior="" direction="left" class="text-danger pt-3"><span><img src="assets/img/logo/new.GIF"

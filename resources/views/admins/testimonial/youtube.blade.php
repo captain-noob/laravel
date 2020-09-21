@@ -38,7 +38,7 @@
                                        <p class="alert alert-danger alert-block">{{$errors->first('youtubelink')}}</p>
                                        @enderror
                                        <br>
-                                       <button class="btn btn-success" style="margin:11px">Upload</button>
+                                       <button class="btn btn-success" style="margin:11px"><i class="fa fa-upload"></i> Upload</button>
                                     </div>
                                  </form>
                               </center>
@@ -57,12 +57,12 @@
                      <div class="col-md-4" style="margin-bottom:5px">
                         <div class="item ">
                            <div class="card item-card card-block">
-                              <iframe class="card-img-top" src="{{$link->youtubelink}}" alt="Card image" style="width:100%;height:150px"></iframe>
+                              <iframe class="card-img-top" src="{{$link->youtubelink}}" alt="Card image" style="width:100%;height:200px"></iframe>
                               <div class="card-body">
                                  <form action="/admins/testimonial/youtube/{{$link->id}}" method="post">
                                  @csrf
                                  @method("DELETE")
-                                 <center><button onclick="return confirm('are you sure');" class="btn btn-danger stretched-link">Delete</button></center>
+                                 <center><button onclick="return confirm('are you sure');" class="btn btn-danger stretched-link"><i class="fa fa-trash"></i> Delete</button></center>
                                  </form>
 
                               </div>

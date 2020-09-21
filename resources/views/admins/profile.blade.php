@@ -2,6 +2,7 @@
 @section('admincontents')
 @section('prof','active')
 @section('gall','collapse')
+
 <div class="main">
    <div class="main-content">
       <div class="container-fluid">
@@ -9,9 +10,9 @@
          <div class="row">
                <div class="col-md-3">
                   <ul class="nav nav-pills nav-stacked admin-menu" >
-                     <li class="active"><a href="" data-target-id="profile"><i class="glyphicon glyphicon-user"></i> Profile</a></li>
-                     <li><a href="" data-target-id="change-password"><i class="glyphicon glyphicon-lock"></i> Change Password</a></li>
-                     <li><a href="" data-target-id="settings"><i class="glyphicon glyphicon-cog"></i> Settings</a></li>
+                     <li id="a"><a data-target-id="profile" onclick="click1();"><i class="glyphicon glyphicon-user"></i> Profile</a></li>
+                     <li id="b"><a data-target-id="change-password" onclick="click2();"><i class="glyphicon glyphicon-lock"></i> Change Password</a></li>
+                     <li id="c"><a data-target-id="settings" onclick="click3();"><i class="glyphicon glyphicon-cog"></i> Settings</a></li>
                      <li><a href="/admins/logout" onclick="return confirm('are you sure');" data-target-id="logout"><i class="glyphicon glyphicon-log-out"></i> Logout</a></li>
                   </ul>
                </div>
@@ -48,33 +49,33 @@
                      </div>
                   </div>
                </div>
-               <div class="col-md-9  admin-content" id="settings">
-                  <div class="panel panel-info" style="margin: 1em;">
-                     <div class="panel-heading">
-                        <h3 class="panel-title">Notification</h3>
+                  <div class="col-md-9 admin-content" id="settings" style="float:right">
+                     <div class="panel panel-info" style="margin: 1em;">
+                        <div class="panel-heading">
+                           <h3 class="panel-title">Notification</h3>
+                        </div>
+                        <div class="panel-body">
+                           <div class="label label-success">allowed</div>
+                        </div>
                      </div>
-                     <div class="panel-body">
-                        <div class="label label-success">allowed</div>
+                     <div class="panel panel-info" style="margin: 1em;">
+                        <div class="panel-heading">
+                           <h3 class="panel-title">Newsletter</h3>
+                        </div>
+                        <div class="panel-body">
+                           <div class="badge">Monthly</div>
+                        </div>
+                     </div>
+                     <div class="panel panel-info" style="margin: 1em;">
+                        <div class="panel-heading">
+                           <h3 class="panel-title">Admin</h3>
+                        </div>
+                        <div class="panel-body">
+                           <div class="label label-success">yes</div>
+                        </div>
                      </div>
                   </div>
-                  <div class="panel panel-info" style="margin: 1em;">
-                     <div class="panel-heading">
-                        <h3 class="panel-title">Newsletter</h3>
-                     </div>
-                     <div class="panel-body">
-                        <div class="badge">Monthly</div>
-                     </div>
-                  </div>
-                  <div class="panel panel-info" style="margin: 1em;">
-                     <div class="panel-heading">
-                        <h3 class="panel-title">Admin</h3>
-                     </div>
-                     <div class="panel-body">
-                        <div class="label label-success">yes</div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-9  admin-content" id="change-password">
+               <div class="col-md-9  admin-content" id="change-password" style="float:right">
                   <form action="/admins/profile/{{$data->id}}" method="POST">
                   @csrf
                   @method('PUT')
@@ -135,7 +136,7 @@
                   </form>
                </div>
                <div class="col-md-9  admin-content" id="settings"></div>
-               <div class="col-md-9  admin-content" id="logout">
+               <div class="col-md-9  admin-content" id="logout" style="float:right">
                   <div class="panel panel-info" style="margin: 1em;">
                      <div class="panel-heading">
                         <h3 class="panel-title">Confirm Logout</h3>
