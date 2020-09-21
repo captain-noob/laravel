@@ -1,0 +1,79 @@
+.ftco-section {
+padding: 7em 0;
+position: relative; 
+}
+@media (max-width: 767.98px) 
+{
+  .ftco-section {
+    padding: 6em 0; 
+} 
+}
+.wrapper {
+    width: 100%; }
+.dbox {
+    width: 100%;
+    margin-bottom: 25px; 
+}
+@media (max-width: 767.98px) {
+  .dbox {
+    margin-bottom: 25px !important;
+    padding: 0 20px; 
+  } 
+}
+.dbox p {
+  margin-bottom: 0; 
+}
+.dbox p span {
+  font-weight: 500;
+  color: #000000; 
+}
+.dbox p a {
+  color: #207dff; 
+}
+.dbox .icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #207dff;
+  margin: 0 auto;
+  margin-bottom: 20px; 
+}
+.dbox .icon span {
+  font-size: 20px;
+  color: #fff; 
+}
+.dbox .text {
+  width: 100%; 
+}
+.w-100 {
+  width: 100% !important; 
+}
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0; 
+}
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0; 
+}      
+.contact-wrap {
+  background: #fff; 
+}
+.p-md-5 {
+    padding: 3rem !important; }
+
+@media (max-width: 767.98px) {
+    .info-wrap {
+      height: 400px; 
+    } 
+}
+img {
+    vertical-align: middle;
+    border-style: none; }
+    .img{
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+

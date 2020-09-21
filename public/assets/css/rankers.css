@@ -1,0 +1,88 @@
+.ftco-section {
+    padding: 7em 0;
+    position: relative; 
+}
+@media (max-width: 767.98px) {
+  .ftco-section {
+    padding: 6em 0; 
+   } 
+}
+.staff {
+    overflow: hidden;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.staff .img {
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease; 
+}
+.staff .text {
+    width: 100%;
+    opacity: 1;
+    color: rgba(0, 0, 0, 0.6);
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease; 
+}  
+.staff .text > div {
+    width: 100%;
+    padding: 0 1em;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease; 
+}
+.staff .text h3 {
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 0;
+    color:#163269;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease; 
+}
+.staff .text .position {
+    color: black;
+    display: block;
+    letter-spacing: 1px; 
+}
+.staff .text .faded {
+    opacity: 1;
+    width: 100%; 
+}
+.staff .ftco-social {
+    opacity: 1;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease; 
+}
+.staff .ftco-social li a {
+    color: #000000; 
+}
+            

@@ -1,0 +1,20 @@
+.contact-our-area .contact_from_area {
+    background-color: #Fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+.contact-our-area {
+    position: relative;
+    z-index: 1;
+    background-color: #ffff;
+}
+
+.contact_input_area .form-group .form-control {
+    border-bottom: 1px solid #dbdcf1;
+    color: #163269;
+    background-color: #F8F9FA;
+}
+.confer-btn{
+    background-image: linear-gradient(131deg, #feb47b, #ff7e5f, #ff7e5f, #ff7e5f);
+    color:white;
+}
