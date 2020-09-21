@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\gallery;
-use App\folder;
+use App\Folder;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Redirect;

@@ -7,7 +7,7 @@ use App\News;
 use App\Testimonialimage;
 use App\Testimonialyoutube;
 use App\gallery;
-use App\folder;
+use App\Folder;
 use App\Youtube;
 use App\DocumentNews;
 use Illuminate\Http\Request;
@@ -20,9 +20,9 @@ class HomeController extends Controller
     $new = News::latest()->take(1)->get();
     $data=Testimonialimage::latest()->take(3)->get();
     $youtube=Testimonialyoutube::latest()->take(3)->get();
-    $galleryA2=gallery::where('folder','A2')->latest()->take(13)->get();
-    $galleryB2=gallery::where('folder','B2')->latest()->take(13)->get();
-    $galleryC2=gallery::where('folder','C2')->latest()->take(13)->get();
+    $galleryA2=gallery::where('folder','A2 Winners')->latest()->take(13)->get();
+    $galleryB2=gallery::where('folder','B2 Winners')->latest()->take(13)->get();
+    $galleryC2=gallery::where('folder','C2 Winners')->latest()->take(13)->get();
     
     $array=[
       'data'=>$news,
@@ -40,7 +40,7 @@ class HomeController extends Controller
    }
    public function gallery()
    {
-         $folder= folder::all();
+         $folder= Folder::all();
          return view('users.gallery',[ 'folder'=>$folder]);
    }
    public function album($id)
