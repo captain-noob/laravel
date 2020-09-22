@@ -67,7 +67,7 @@
                             <p data-aos="fade-left" data-aos-delay="150">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                 ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
                                 viverra maecenas accumsan lacus...</p>
-                            <a href="register.php" data-aos="fade-left" data-aos-delay="200">Enroll Now</a>
+                            <a href="/register" data-aos="fade-left" data-aos-delay="200">Enroll Now</a>
                         </div>
                     </div>
                 </div>

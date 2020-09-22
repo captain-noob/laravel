@@ -48,7 +48,7 @@
       <div class="col-md-5"> 
            <!-- PANEL HEADLINE -->
          <div class="panel panel-headline" style="border-radius:10px">
-            <image src="{{asset('public/storage/file/news/'.$document->file)}}" style="width:100%;height:300px;border:none;">
+            <image src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" style="width:100%;height:300px;border:none;">
             <div class="panel-body">
             <h3 class="card-title">{{$document->title}}</h3>
             <h4>{{$document->body}}</h4>
