@@ -21,11 +21,11 @@
                              <li><a href="/admins/gallery/folder/{{$b2folder->id}}" class=""><span></span><i class="fa fa-folder-open"></i> B2  Winners</a></li>
                              <li><a href="/admins/gallery/folder/{{$c2folder->id}}" class=""><span> </span><i class="fa fa-folder-open"></i> C2 Winners</a></li>
                              @foreach($data as $folder)
-                             <li><a href="/admins/gallery/folder/{{$folder->id}}" ><span>{{$folder->folder}}</span></a></li>
+                             <li><a href="/admins/gallery/folder/{{$folder->id}}" ><span><i class="fa fa-folder-open"></i> {{$folder->folder}}</span></a></li>
                      <form action="/admins/gallery/folder/{{$folder->id}}" method="POST">
                      @csrf
                      @method('DELETE')
-                      <button type="submit" >delete</button>
+                      <button type="submit" class="btn btn-danger" style="margin-left:15px;">Delete <i class="fa fa-trash"></i> </button>
                       </form>
                              @endforeach
         

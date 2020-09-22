@@ -41,7 +41,7 @@
                    @foreach($data as $news)
                 <div class="col-lg-3"> 
                      <!-- PANEL HEADLINE -->
-                   <div class="panel panel-headline">
+                   <div class="panel panel-headline" style="min-height:420px;">
                        <image src="{{asset('image/news/'.$news->image)}}" style="width:100%;">
                          <div class="panel-body">
                               <h4>{{$news->body}}</h4>

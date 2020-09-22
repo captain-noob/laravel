@@ -145,7 +145,7 @@
 <!-- header ends here -->
 @yield('contents') <!-- contents to display for the assets -->
 <footer >
-        <div class="footer-wrappr pt-5 section-bg" style="background-color:#23282C !important;">
+        <div class="footer-wrappr pt-5 section-bg" style="background-color:#606060 !important;">
             <div class="footer-area pt-5">
                 <div class="container">
                     <div class="row d-flex justify-content-between">

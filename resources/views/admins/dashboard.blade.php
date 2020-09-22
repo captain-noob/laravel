@@ -52,7 +52,7 @@
 								</div>
 							</div>
 							<div class="row">
-								<div class="col-md-9">
+								<div class="col-md-9" >
 									<div id="headline-chart" class="ct-chart"></div>
 								</div>
 								<div class="col-md-3">

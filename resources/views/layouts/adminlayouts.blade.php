@@ -20,6 +20,12 @@
 <!-- ICONS -->
 <link rel="apple-touch-icon" sizes="76x76" href="/admin/img/apple-icon.png">
 <link rel="icon" type="image/png" sizes="96x96" href="/admin/img/favicon.png">
+
+<style>
+#cv{
+	display:none !important;
+}
+</style>
 </head>
 
 <!-- //PHP CODE TO DISPLAY -->
@@ -117,9 +123,9 @@
 					
 					
 					<li>
-						<a href="#gallery1" data-toggle="collapse" class="four"><i class="fa fa-folder"></i> <span>Testimonial</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
-						<div id="gallery1" class="sub4 d-none">
-							<ul class="nav  d-none">
+						<a href="#gallery1" onclick="vv()" data-toggle="collapse" class="four"><i class="fa fa-folder"></i> <span>Testimonial</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
+						<div id="gallery1">
+							<ul class="nav">
 								<li><a href="/admins/testimonial/youtube" class=""><i class="fa fa-youtube"></i> <span>Youtube</span></a></li>
 								<li><a href="/admins/testimonial/gallery" class=""><i class="fa fa-file-image-o"></i> <span>Image</span></a></li>
 							</ul>
@@ -309,18 +315,11 @@
 		document.getElementById("a").classList.remove("active");
 		document.getElementById("c").classList.add("active");
 	}
-	!(function ($) {
-		"use strict";
-		$(document).on('click', '.four', function (e) {
-    		if ($('.four').hasClass('d-none')) {
-      			$('.sub4').toggleClass('d-none');
-    		}
-    		else {
-      			$('.sub4').toggleClass('d-none');
-    		}
-  		});
-
+	
+	function vv(){
+		document.getElementById("cv").style.display = "block";
 	}
+	
 	</script>
 
 
